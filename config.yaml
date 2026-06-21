@@ -1,15 +1,11 @@
 app:
-    shutdown_gracetime: 10s
-    http_port: 41220
-    external_host: "localhost"
-    singbox_log_level: "warn"
-    logs:
-        level: debug
-        colored: true
-        type: pretty
-        output: stdout
-    disable_docs: false
+  shutdown_gracetime: 10s
+  http_port: 41220
+  external_host: localhost
+  singbox_log_level: warn
+  log_level: debug
+  disable_docs: false
 jwt:
-    secret: 05327cd12b0763bcf1aba829b5193df597b4a3d27ad0418be2c5e6c0e9577d55
-    expiry: 24h0m0s
+  secret: 05327cd12b0763bcf1aba829b5193df597b4a3d27ad0418be2c5e6c0e9577d55
+  expiry: 24h0m0s
 database: ./outless.db
