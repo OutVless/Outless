@@ -1,0 +1,13 @@
+app:
+    shutdown_gracetime: 10s
+    http_port: 41220
+    logs:
+        level: info
+        colored: true
+        type: pretty
+        output: stdout
+    disable_docs: false
+jwt:
+    secret: 05327cd12b0763bcf1aba829b5193df597b4a3d27ad0418be2c5e6c0e9577d55
+    expiry: 24h0m0s
+database: ./outless.db
