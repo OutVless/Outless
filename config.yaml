@@ -1,8 +1,10 @@
 app:
     shutdown_gracetime: 10s
     http_port: 41220
+    external_host: "localhost"
+    singbox_log_level: "warn"
     logs:
-        level: info
+        level: debug
         colored: true
         type: pretty
         output: stdout
